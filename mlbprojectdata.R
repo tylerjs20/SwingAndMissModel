@@ -31,9 +31,6 @@ for (i in 1:length(sequence)) {
   batter <- rbind(batter, bframe)
 }
 
-finalframe <- read.csv("C:/Users/tscot/Downloads/PersonalProjects/swingmissproj/pitchesprojdataFirstLoop.csv")
-batter <- read.csv("C:/Users/tscot/Downloads/PersonalProjects/swingmissproj/batterFirstLoop.csv")
-
 pitches <- finalframe
 
 # Removing NAs
